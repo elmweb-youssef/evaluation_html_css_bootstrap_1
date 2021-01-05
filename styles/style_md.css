@@ -1,0 +1,16 @@
+#section_cms p {
+    max-width: 32%;
+    height: 32%;
+    margin: 1% 0;
+    vertical-align: top;
+}
+
+.sous-titre, h3, h5 {
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.sous-titre>strong {
+    font-size: 1em;
+    font-weight: bold;
+}
