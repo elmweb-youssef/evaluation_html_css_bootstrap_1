@@ -1,0 +1,40 @@
+.titre {
+    font-size: 4em;
+}
+
+img, .logo {
+    display: block;
+    max-width: 75%;
+    margin: auto;
+}
+
+.link {                           /* nav */
+    height: 90px;
+    margin-bottom: 7px;
+}
+
+.titre {
+    margin: auto;
+}
+
+ul {
+    padding: 0;
+}
+
+.link a {
+    border: 1px solid green;
+    border-radius: 7px;
+}
+
+article {               
+    display: block;
+    min-width: 100%;
+}
+
+.sous-titre, h3, h5 {             /* h2 and link footer */
+    font-size: 0.5em;
+}
+
+.sous-titre, h3, h5, .sous-titre>strong {
+    font-weight: bold;
+}
