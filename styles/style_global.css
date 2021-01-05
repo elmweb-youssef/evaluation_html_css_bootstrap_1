@@ -1,0 +1,297 @@
+/**************** styles for all screens ******************
+***********************************************************/
+
+
+@font-face {
+    font-family: "Orbitron";
+    src: url("../fonts/Orbitron.ttf") format("ttf");
+}
+
+
+/*************** reset margin and padding *****************/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;                       /* 1em = 10px */
+    font-family: "Orbitron";
+    background-color: silver;
+}
+/*************** reset margin and padding *****************/
+
+
+/******************** blocks elements *********************/
+div, section, #section_cms, p, picture, strong, span, footer {
+    display: block;
+}
+/******************** blocks elements *********************/
+
+
+/***************** inline-blocks elements *****************/
+h1, h2, .link, article, #section_cms p, #section_cms picture, a, img {
+    display: inline-block;
+}    
+/***************** inline-blocks elements *****************/
+
+
+/******************* elements fullwidth *******************/
+.logo, .menu, li, .link a {
+    width: 100%;
+}
+/******************* elements fullwidth *******************/
+
+
+/***************** selectors styles global ****************/
+h1, h2, #section_cms, #section_cms p, .menu, table, .form-group, fieldset, footer {
+    text-align: center;
+}
+
+section, #bloc_logo, .bloc_logo, header {
+    border-bottom: 1px solid white;
+}   
+
+.row, h1, h2, .menu, fieldset, a, .link, img {
+    margin: 0 auto;
+} 
+
+li {
+    list-style: none;
+
+}
+
+section {
+    font-size: 2.75em;
+}
+
+h1, h2, .link, a, img {
+    max-height: 100%;
+    border: none;
+}
+
+h1, h2, .link {
+    line-height: 90px;
+}
+
+.link a {
+    border-radius: 0 20px;
+    font-size: 2em;
+    color: green;
+    text-decoration: none;
+}
+.link a:hover {
+    color: black;
+    background-color: green;
+}
+/***************** selectors styles global ****************/
+
+
+/************************** titles ************************/
+.titre {
+    margin-left: 20px;
+    padding: 0;
+    font-size: 3em;
+}
+
+#sous-titre {
+    max-height: 100px;
+}
+
+.sous-titre {
+    min-height: 100px;
+    font-size: 0.75em;
+}
+
+.sous-titre strong {
+    display: inline-block;
+    min-height: 100px;
+    font-weight: normal;
+} 
+
+h3 {
+    margin-bottom: 5%;
+    color: green;
+    text-decoration: underline;
+}
+
+h5 {
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px dashed gray;
+    text-align: center;
+    font-style: italic;
+}
+/************************** titles ************************/  
+
+/************************* sections ***********************/ 
+#section_cms, #section_table, #section_form {
+    border: none;
+    margin: 3% 2% 0;
+}
+
+#section_cms {
+    height: auto;
+}
+
+#section_table, #section_form {
+    min-height: 472.59px;
+}
+
+#section_cms p {
+    min-width: 100%;
+    border: none;
+    margin: 5% auto;
+    padding-bottom: 10px;
+}
+
+#section_table table, #section_form form {
+    width: 100%;
+    margin: 1% auto;
+}
+
+.sec_cms_text {
+    margin: auto;
+    font-size: 0.55em;
+}
+
+#section_cms img {
+    max-height: 200px;
+}
+/************************* sections ***********************/ 
+
+/************************** article ***********************/ 
+article {
+    max-width: 32%;
+    border: 2px solid white;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+/************************** article ***********************/ 
+
+/*************************** table ************************/ 
+table {
+    min-height: 200px;
+    margin: 3% auto;
+    font-size: 0.55em;
+}
+
+p.table_text, .icone {
+    display: inline-block;
+    height: auto;
+    margin: auto;
+}
+
+.icone img {
+    display: inline-block;
+    height: 20px;
+    margin: 7.5px;
+}
+
+.td_strong {
+    display: inline;
+}
+/*************************** table ************************/
+
+/*************************** form *************************/
+.form-group button {
+    width: 230px;
+    height: 70px;
+}
+
+fieldset {
+    width: 100%;
+}
+
+legend {
+    margin-bottom: 25px;
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.btn {
+    width: 70%;
+    height: 25px;
+    padding: 0.5px 0;
+}
+/*************************** form *************************/
+
+/************************** footer ************************/
+footer {
+    display: table;
+    width: 100%;
+    min-height: 260px;
+    margin-top: 5%;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+    background-color: gray;
+}
+
+footer p {
+    display: table-cell;
+    width: 45%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#nav {
+    display: table-cell;
+    width: 30%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.item {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.item:first-child a::before {
+     content: "🏠";
+     margin-right: 5px;
+}
+.item:nth-child(2) a::before {
+    content: "📅";
+    margin-right: 5px;
+}
+.item:last-child a::before {
+    content: "📧";
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.item a {
+    display: inline;
+    font-size: 0.75em;
+    color: black;
+}
+.item a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#elmweb {
+    display: table-cell;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.elmweb {
+    width: 70%;
+}
+
+#margin {
+    display: table-cell;
+    width: 3%;
+}
+/************************** footer ************************/
+
+
+
+
+
+
+
+
+
