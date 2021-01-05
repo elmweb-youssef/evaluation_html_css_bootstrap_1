@@ -1,0 +1,22 @@
+.row {
+    height: 100px;
+    margin: auto; 
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+
+.menu {
+    border: none;
+}
+
+.link {
+    width: auto;
+    margin-left: 15px;
+}
+
+#section_cms p {
+    max-width: 32%;
+    height: 32%;
+    margin: 1% 0 0 0;
+    vertical-align: top;
+}
