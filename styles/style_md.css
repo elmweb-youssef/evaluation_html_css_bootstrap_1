@@ -1,3 +1,22 @@
+.logo {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.titre {
+    font-size: 2.5em;
+}
+
+.logo>img, .cms {
+    width: 100%;
+}
+
+.link {
+    width: auto;
+    margin-right: 5px;
+}
+
 #section_cms p {
     max-width: 32%;
     height: 32%;
@@ -13,4 +32,4 @@
 .sous-titre>strong {
     font-size: 1em;
     font-weight: bold;
-}
+
